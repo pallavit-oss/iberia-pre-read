@@ -43,6 +43,7 @@ The page is a single scrollable document with six sections, accessible via a fix
 
 ### TODO before sharing with candidates
 
+- ~~**Fonts:** an earlier draft used Google Fonts (Plus Jakarta Sans + Inter) instead of Headout's licensed Halyard Display/Halyard Text.~~ Fixed — the licensed Halyard fonts (same base64-embedded OTFs as the Italy/France repos) are now embedded directly, matching those pages exactly.
 - **Office address:** the hero card, location card, and Google Maps embed currently point at a generic "Madrid, Spain" pin. Replace with the exact office address once confirmed (search `TBC` in `index.html`).
 - **Team video:** the Team section shows a "Video coming soon" placeholder for Diego Valera, with a purple initials tile (`DV`) instead of a photo. To add a Loom video, find `video-slide-player` in `index.html` (search `VIDEO TODO` is not present — look for `video-placeholder` inside `#vslide-0`) and replace it with:
   ```html
