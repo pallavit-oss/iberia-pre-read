@@ -56,7 +56,7 @@ The page is a single scrollable document with six sections, accessible via a fix
   ></iframe>
   ```
   Replace the `vsb-avatar` initials tile with a `vsb-avatar-img` (base64-encoded photo) when available. If a second team member (e.g. a peer BDM) records a video, duplicate the slide structure and restore the video-carousel JS/nav removed in this version (see git history of the Italy/France repos for the two-slide pattern).
-- **Top experiences:** the tag cloud currently lists attraction names as plain (non-linked) chips, since exact Headout product-page URLs for Spain/Portugal weren't available when this was built. Add real `https://www.headout.com/...` links once known (see how the Italy/France repos link theirs).
+- ~~**Top experiences:** the tag cloud listed attraction names as plain (non-linked) chips.~~ Fixed — all 11 chips now link to real, verified category pages on headout.com (found via the site's own search, e.g. `sagrada-familia-tickets-c-327`, `barcelona-park-guell-tickets-c-325`, `nightlife-ibiza-sc-1148~5932`). Worth a periodic check that these category IDs haven't changed.
 - **OG image:** no social-preview image is wired up yet (the Italy repo uses a Colosseum photo; this repo has none). Add an `og-image.jpg` (1200×630) and restore the `og:image`/`twitter:image` meta tags in `<head>` once you have one — e.g. a Madrid/Barcelona/Lisbon landmark shot.
 - **"Explore more on Headout" partnership highlight:** the France repo names a specific recent partnership win in the Opportunity section (Bertrand Hospitality × Versailles). Add an Iberia-equivalent highlight if there's one worth featuring.
 
