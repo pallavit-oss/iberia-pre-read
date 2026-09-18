@@ -57,7 +57,7 @@ The page is a single scrollable document with six sections, accessible via a fix
   ></iframe>
   ```
 - ~~**Top experiences:** the tag cloud listed attraction names as plain (non-linked) chips.~~ Fixed — all 11 chips now link to real, verified category pages on headout.com (found via the site's own search, e.g. `sagrada-familia-tickets-c-327`, `barcelona-park-guell-tickets-c-325`, `nightlife-ibiza-sc-1148~5932`). Worth a periodic check that these category IDs haven't changed.
-- **OG image:** no social-preview image is wired up yet (the Italy repo uses a Colosseum photo; this repo has none). Add an `og-image.jpg` (1200×630) and restore the `og:image`/`twitter:image` meta tags in `<head>` once you have one — e.g. a Madrid/Barcelona/Lisbon landmark shot.
+- ~~**OG image:** no social-preview image was wired up.~~ Fixed — `og-image.jpg` (1200×630, Sagrada Família at dusk, cropped from the original AVIF) is in the repo root, with the `og:image`/`twitter:image` meta tags restored in `<head>`.
 - **"Explore more on Headout" partnership highlight:** the France repo names a specific recent partnership win in the Opportunity section (Bertrand Hospitality × Versailles). Add an Iberia-equivalent highlight if there's one worth featuring.
 
 ---
