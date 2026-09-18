@@ -38,7 +38,7 @@ The page is a single scrollable document with six sections, accessible via a fix
 - **Skip-level:** Vlad Grankin, GM · Europe & LATAM
 - **Team:** 5 Business Development Managers, 2 Business Growth Managers, and 5+ central team members dedicated to the Iberia & South America market
 - **Market focus:** Spain, Portugal, and South America (Sagrada Família, Park Güell, Alhambra, Royal Palace of Madrid, Santiago Bernabéu Tours, Seville Cathedral, Alcázar of Seville, Pena Palace, Jerónimos Monastery, Oceanário Lisboa, Ibiza nightlife, Christ the Redeemer, Iguazú Falls, Machu Picchu, Buenos Aires tango shows)
-- **Languages:** Portuguese and English
+- **Languages:** Spanish, Portuguese, and English
 - **Interview process:** Recruiter Connect → Case Study (built around this role's real strategic/commercial decisions) → Hiring Manager + Senior BDM (Diego Valera + Federico Jan) → GM, Europe & LATAM (Vlad Grankin) → Reference Check → Offer
 
 ### TODO before sharing with candidates
