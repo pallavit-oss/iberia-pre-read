@@ -45,7 +45,8 @@ The page is a single scrollable document with six sections, accessible via a fix
 
 - ~~**Fonts:** an earlier draft used Google Fonts (Plus Jakarta Sans + Inter) instead of Headout's licensed Halyard Display/Halyard Text.~~ Fixed — the licensed Halyard fonts (same base64-embedded OTFs as the Italy/France repos) are now embedded directly, matching those pages exactly.
 - ~~**Office address:** the hero card, location card, and Google Maps embed pointed at a generic "Madrid, Spain" pin.~~ Fixed — office confirmed as Venture X AZCA, C. de Orense 6, Planta 2, Tetuán, 28020 Madrid, Spain.
-- **Team video:** the Team section shows a "Video coming soon" placeholder for Diego Valera, with a purple initials tile (`DV`) instead of a photo. To add a Loom video, find `video-slide-player` in `index.html` (search `VIDEO TODO` is not present — look for `video-placeholder` inside `#vslide-0`) and replace it with:
+- ~~**Team photos:** Diego had an initials tile, no real photos.~~ Fixed — both Diego Valera and Federico Jan now have real photos (`vsb-avatar-img`), and the two-slide carousel (prev/next arrows + dots) is restored.
+- **Team videos:** both slides still show a "Video coming soon" placeholder. To add a Loom video once recorded, find the relevant `video-placeholder` inside `#vslide-0` (Diego) or `#vslide-1` (Federico) in `index.html` and replace it with:
   ```html
   <iframe
     src="https://www.loom.com/embed/YOUR_VIDEO_ID?hide_owner=true&hide_share=true&hide_title=true&hideEmbedTopBar=true"
@@ -55,7 +56,6 @@ The page is a single scrollable document with six sections, accessible via a fix
     style="width:100%;height:100%;border-radius:16px;display:block;"
   ></iframe>
   ```
-  Replace the `vsb-avatar` initials tile with a `vsb-avatar-img` (base64-encoded photo) when available. If a second team member (e.g. a peer BDM) records a video, duplicate the slide structure and restore the video-carousel JS/nav removed in this version (see git history of the Italy/France repos for the two-slide pattern).
 - ~~**Top experiences:** the tag cloud listed attraction names as plain (non-linked) chips.~~ Fixed — all 11 chips now link to real, verified category pages on headout.com (found via the site's own search, e.g. `sagrada-familia-tickets-c-327`, `barcelona-park-guell-tickets-c-325`, `nightlife-ibiza-sc-1148~5932`). Worth a periodic check that these category IDs haven't changed.
 - **OG image:** no social-preview image is wired up yet (the Italy repo uses a Colosseum photo; this repo has none). Add an `og-image.jpg` (1200×630) and restore the `og:image`/`twitter:image` meta tags in `<head>` once you have one — e.g. a Madrid/Barcelona/Lisbon landmark shot.
 - **"Explore more on Headout" partnership highlight:** the France repo names a specific recent partnership win in the Opportunity section (Bertrand Hospitality × Versailles). Add an Iberia-equivalent highlight if there's one worth featuring.
