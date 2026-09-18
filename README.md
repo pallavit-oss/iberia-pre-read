@@ -36,10 +36,10 @@ The page is a single scrollable document with six sections, accessible via a fix
 - **Role:** Business Development Manager, Iberia — based in Madrid (exact office address TBC)
 - **Reports to:** Diego Valera, GM · Iberia & South America
 - **Skip-level:** Vlad Grankin, GM · Europe & LATAM
-- **Team:** 5 Business Development Managers, 2 Business Growth Managers, and 5+ central team members dedicated to the Iberian market
-- **Market focus:** Spain and Portugal (Sagrada Família, Park Güell, Alhambra, Royal Palace of Madrid, Santiago Bernabéu Tours, Seville Cathedral, Alcázar of Seville, Pena Palace, Jerónimos Monastery, Oceanário Lisboa, Ibiza nightlife)
+- **Team:** 5 Business Development Managers, 2 Business Growth Managers, and 5+ central team members dedicated to the Iberia & South America market
+- **Market focus:** Spain, Portugal, and South America (Sagrada Família, Park Güell, Alhambra, Royal Palace of Madrid, Santiago Bernabéu Tours, Seville Cathedral, Alcázar of Seville, Pena Palace, Jerónimos Monastery, Oceanário Lisboa, Ibiza nightlife, Christ the Redeemer, Iguazú Falls, Machu Picchu, Buenos Aires tango shows)
 - **Languages:** Portuguese and English
-- **Interview process:** Recruiter Connect → Case Study (Iberia-adapted) → call with Diego Valera → GM Europe & LATAM (Vlad Grankin) → Reference Check → Offer
+- **Interview process:** Recruiter Connect → Case Study (built around this role's real strategic/commercial decisions) → Hiring Manager + Senior BDM (Diego Valera + Federico Jan) → GM, Europe & LATAM (Vlad Grankin) → Reference Check → Offer
 
 ### TODO before sharing with candidates
 
