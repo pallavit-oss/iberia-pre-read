@@ -47,7 +47,7 @@ The page is a single scrollable document with six sections, accessible via a fix
 - ~~**Office address:** the hero card, location card, and Google Maps embed pointed at a generic "Madrid, Spain" pin.~~ Fixed — office confirmed as Venture X AZCA, C. de Orense 6, Planta 2, Tetuán, 28020 Madrid, Spain.
 - ~~**Team photos:** Diego had an initials tile, no real photos.~~ Fixed — both Diego Valera and Francisco Gallego now have real photos (`vsb-avatar-img`), and the two-slide carousel (prev/next arrows + dots) is restored.
 - **Federico Jan (Senior BDM):** temporarily removed from the "Meet the team" carousel at Pallavi's request — he's sending a Loom video, and his slide will be re-added once it's ready. His slide markup (with LinkedIn link, photo, and quote) is preserved in git history — see commit `07e8e95` ("Add Federico Jan to the team video section") to restore it, then bump `#vslide-1`/`#vslide-2` numbering and `totalSlides` accordingly. He's still named as a joint interviewer in Interview Process step 03, independent of whether his team-carousel slide is live.
-- **Team videos:** both current slides (Diego, Francisco) still show a "Video coming soon" placeholder. To add a Loom video once recorded, find the relevant `video-placeholder` inside `#vslide-0` (Diego) or `#vslide-1` (Francisco) in `index.html` and replace it with:
+- ~~**Team videos:** both slides showed a "Video coming soon" placeholder.~~ Fixed — Diego's and Francisco's Loom videos are both embedded (`#vslide-0` and `#vslide-1`). When Federico's slide is restored, use this same pattern for his:
   ```html
   <iframe
     src="https://www.loom.com/embed/YOUR_VIDEO_ID?hide_owner=true&hide_share=true&hide_title=true&hideEmbedTopBar=true"
